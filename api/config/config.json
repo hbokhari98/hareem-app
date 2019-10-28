@@ -1,0 +1,20 @@
+{
+  "development": {
+    "username": "hareem_stock",
+    "password": "hareem_stock",
+    "database": "hareem_stock_app",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "hareem_stock",
+    "password": "hareem_stock",
+    "database": "hareem_stock_app",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres"
+  }
+}
